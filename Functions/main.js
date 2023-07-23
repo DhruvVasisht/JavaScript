@@ -6,3 +6,9 @@ function sum(a,b){
 const a=12;
 const b=14;
 sum(a,b);
+
+const square=function(num){
+    return num*num;
+};
+
+console.log("Square Of Number",square(4));
